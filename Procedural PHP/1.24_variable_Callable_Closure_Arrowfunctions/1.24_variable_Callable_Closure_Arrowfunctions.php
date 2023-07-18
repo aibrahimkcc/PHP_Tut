@@ -36,7 +36,7 @@ $top =function (int|float ...$numbers): int|float{
 };
 echo $top(1,2,3,4);
 
-//anonymous functionlarda şu şekilde global değişkenleri içeri aktarabiliyoruz.
+//anonymous functionlarda aşağıdaki şekilde global değişkenleri içeri aktarabiliyoruz.
 // use ile çağırdığım değişkeni fonksiyon içinde kullanabilirim
 //localde $y'ye yeni değer versemde globaldeki değeri değişmez çünkü bunun nedeni atamanın değer göre yapılmasıdır.
 //use(&$y) şeklinde kullanırsam globalde de değeri değişir çünkü atamayı referansa göre yapmış olurum.
