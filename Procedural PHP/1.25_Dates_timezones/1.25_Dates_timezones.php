@@ -36,7 +36,7 @@ echo date('H:i d/n/Y',$x).'<br/>';
 
 //başka bir şekilde iste
 //https://www.php.net/manual/en/datetime.formats.relative.php
-echo date('H:i d/n/Y', strtotime('2023-01-18 00:52:00')).'<br/>';
+    echo date('H:i d/n/Y', strtotime('2023-01-18 00:52:00')).'<br/>';
 echo date('H:i d/n/Y', strtotime('last day of february 2020')).'<br/>';
 
 
